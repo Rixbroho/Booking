@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-light py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h3">HotelBooking</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Explore</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+      <h1 class="display-4">Find the top <br>Hotels Nearby.</h1>
+      <p class="lead">Discover the best hotels and book easily.</p>
+      <form class="row g-2 justify-content-center">
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Location">
+        </div>
+        <div class="col-md-3">
+          <input type="date" class="form-control">
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-primary w-100">Search</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Featured Hotels -->
+  <section class="featured-hotels py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Featured Hotels</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4">
+          <img src="hotel1.jpg" alt="Hotel 1" class="img-fluid">
+          <h4>Hotel Paradise</h4>
+          <p>$200/night</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <img src="hotel2.jpg" alt="Hotel 2" class="img-fluid">
+          <h4>Beachside Resort</h4>
+          <p>$150/night</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <img src="hotel3.jpg" alt="Hotel 3" class="img-fluid">
+          <h4>Mountain Retreat</h4>
+          <p>$180/night</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <img src="hotel4.jpg" alt="Hotel 4" class="img-fluid">
+          <h4>Urban Hotel</h4>
+          <p>$220/night</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore Nearby -->
+  <section class="explore-nearby py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Explore Nearby</h2>
+      <div class="row text-center">
+        <div class="col-md-2 col-sm-4 mb-4">
+          <img src="beach.jpg" alt="Beach" class="img-fluid rounded-circle">
+          <p>Beaches</p>
+        </div>
+        <div class="col-md-2 col-sm-4 mb-4">
+          <img src="mountain.jpg" alt="Mountain" class="img-fluid rounded-circle">
+          <p>Mountains</p>
+        </div>
+        <div class="col-md-2 col-sm-4 mb-4">
+          <img src="city.jpg" alt="City" class="img-fluid rounded-circle">
+          <p>Cities</p>
+        </div>
+        <div class="col-md-2 col-sm-4 mb-4">
+          <img src="nature.jpg" alt="Nature" class="img-fluid rounded-circle">
+          <p>Nature</p>
+        </div>
+        <div class="col-md-2 col-sm-4 mb-4">
+          <img src="culture.jpg" alt="Culture" class="img-fluid rounded-circle">
+          <p>Culture</p>
+        </div>
+        <div class="col-md-2 col-sm-4 mb-4">
+          <img src="adventure.jpg" alt="Adventure" class="img-fluid rounded-circle">
+          <p>Adventure</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 HotelBooking. All Rights Reserved.</p>
+      <p>
+        <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
